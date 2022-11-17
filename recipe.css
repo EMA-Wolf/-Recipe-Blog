@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 3rem 14rem;
+}
+
+.article {
+    display: flex;
+    gap: 0.4rem;
+    align-items: flex-start;
+}
+
+.header > h1{
+    margin-bottom: 1.2rem;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.article > p {
+    width: 48rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.article > img {
+    padding-top: 0.3rem;
+}
+
+.preview {
+    width: 58rem;
+}
+
+.timers {
+    display: grid;
+    width: 12rem;
+    gap: 0rem;
+    padding-top: 3rem;
+    padding: 94px;
+    padding-top: 0rem;
+    padding-bottom: 15rem;
+    padding-left: 9rem;
+}
+
+.group{
+    display:flex;
+    gap: 0.3rem;
+}
+
+.types > h2 {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+}
+
+.types > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333333;
+}
+
+.group > span{
+    font-size: 3.3rem;
+}
+
+.knife{
+color: #F2994A;
+}
+
+.group .knife{
+    color: #F2994A;
+}
+
+.inline{
+display: flex;
+align-items: flex-start;
+gap: 0.5rem;
+}
+
+.inline > p {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inline >input {
+    margin-top: 0.4rem;
+}
+
+.inline > .web{
+    color: #BDBDBD;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    width: 35rem;
+}
+
+#display {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0rem;
+}
+
+.ingredients > h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.ingredients {
+    order: -1;
+}
+
+.space{
+margin-bottom: 1.4rem;
+}
+
+.info {
+    width: 40rem;
+}
+
+.recipe{
+    margin-bottom: 1rem;
+}
+
+.inline > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 27px;
+    background: #F2994A;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 0.4rem;
+}
+
+.instructions > h1{
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/* .instructions{
+    grid-column: 1/-1;
+} */
+
+.instructions p {
+    width: 31rem;
+    margin-bottom: 2rem;
+}
+
+.recipe > h2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #828282;
+}
+
+@media (max-width:1200px){
+    #head{
+        width: 47rem;
+    }
+}
+
+@media (max-width:800px) {
+#head{
+    width: 37rem;
+}
+
+    .header {
+        margin: 3rem 1rem;
+    }
+
+    #display{
+        grid-template-columns: none;
+    }
+
+    .timers {
+        display: grid;
+        width: 35rem;
+        gap: 0rem;
+        padding-top: 3rem;
+        padding: 0px;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        order: -2;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+.one {
+        grid-column: 1/-1;
+ }
+ 
+    .two {
+        order: 0;
+    }
+
+.preview {
+        width: 39rem;
+
+    }
+
+    .footer{
+        width: 41rem;
+    }
+
+    .instructions{
+        padding-left: 2rem;
+    }
+}
